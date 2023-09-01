@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<!-- Favicon -->
+		<link
+			rel="icon"
+			type="image/png"
+			href="./favicon.png"
+		/>
+		<link rel="manifest" href="./site.webmanifest" />
+
+		<!-- Tell browser this site is responsive -->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Tell browser this site supports light and dark mode -->
+		<meta name="color-scheme" content="light dark" />
+		<!-- Color for browser url bar in mobile/Safari -->
+		<meta name="theme-color" media="(prefers-color-scheme: light)" content="#b28cf2" />
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#4612A1" />
+		<!-- Disable Google FLOC -->
+		<meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+
+		<script>
+			// Calling this here so that it loads as quickly as possible
+			// Avoiding a flash of light mode in case dark mode is used
+			const theme = localStorage.getItem('theme-preference') || 'auto';
+			document.firstElementChild?.setAttribute('data-theme', theme);
+		</script>
+
+		
+		<link href="./_app/immutable/assets/0.13484673.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/2.a0c51d5a.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/Footer.125ce89f.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/ContentSection.0ddfd430.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/Image.0954db74.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/BlogPostCard.5fa4fbe2.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.5eee4d95.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.9dc8c717.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.cb167a86.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.d326a4d5.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.a217fe5d.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.e338aa38.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Footer.e5028041.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/ContentSection.fa9ae173.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/regex.7dfa9b23.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/meta.5b35386e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BlogPostCard.b8918d32.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/4.d3a28f7c.js"><title>GANs - GenAI Lab</title><!-- HEAD_svelte-1ylu8nc_START --><meta name="keywords" content=", Generative AI, Gen AI Lab, Learning, Lessons, Learning Hub, AI Curriculum">
+
+		<meta name="description">
+		<meta property="og:description">
+		<meta name="twitter:description">
+		<link rel="canonical" href="https://genai-lab-6e1e6.web.app/GANs">
+
+		
+		<meta property="og:title" content="GANs - GenAI Lab">
+		<meta name="twitter:title" content="GANs - GenAI Lab">
+
+		<!-- HEAD_svelte-1ylu8nc_END -->
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div id="svelte-root">
+
+
+
+<div class="article-layout svelte-1hgysft"><header class="svelte-1gvg2a4 has-background"><nav class="container svelte-1gvg2a4"><a class="logo svelte-1gvg2a4" href="/" aria-label="Site logo"><div class="logo svelte-mxsp3c animated"><svg id="logo-text" width="723.84009" height="116.720268" viewBox="0 0 723.84009 116.720269" fill="none" xmlns="http://www.w3.org/2000/svg" class="svelte-mxsp3c"><text xml:space="preserve" id="text" transform="translate(-278.77228,-206.83728)" class="svelte-mxsp3c"><tspan x="275.57227" y="292.17088" id="tspan1319"><tspan style="font-size:106.667px;font-family:YoungSerif;" id="tspan1317">GenAI Lab</tspan></tspan></text></svg>
+</div></a>
+		<div class="links svelte-1gvg2a4"><a href="/about" class="svelte-1gvg2a4">About</a>
+			<a href="/tools" class="svelte-1gvg2a4">Tools</a>
+			<a href="/curriculum" class="svelte-1gvg2a4">Curriculum</a>
+			<noscript>
+	<style>.theme-toggle {
+			display: none !important;
+		}
+	</style></noscript>
+<button class="theme-toggle svelte-niuf71" title="Toggle between light and dark theme"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"><mask id="moon" class="svelte-niuf71"><rect x="0" y="0" width="100%" height="100%" fill="white" class="svelte-niuf71"></rect><circle cx="40" cy="8" r="11" fill="black" class="svelte-niuf71"></circle></mask><circle id="sun" cx="12" cy="12" r="11" mask="url(#moon)" class="svelte-niuf71"></circle><g id="sun-beams" class="svelte-niuf71"><line x1="12" y1="1" x2="12" y2="3" class="svelte-niuf71"></line><line x1="12" y1="21" x2="12" y2="23" class="svelte-niuf71"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" class="svelte-niuf71"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" class="svelte-niuf71"></line><line x1="1" y1="12" x2="3" y2="12" class="svelte-niuf71"></line><line x1="21" y1="12" x2="23" y2="12" class="svelte-niuf71"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" class="svelte-niuf71"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" class="svelte-niuf71"></line></g></svg>
+	<span class="label svelte-niuf71">Auto</span>
+</button></div></nav>
+</header>
+	<main><article id="article-content" class="svelte-1hgysft"><div class="header svelte-1hgysft"><h1>GANs</h1>
+					<div class="note svelte-1hgysft">1-2 hour lesson</div>
+					<div class="tags svelte-1hgysft"><div class="tag primary svelte-1xh8qlg">null</div></div></div>
+			
+			<div class="content svelte-1hgysft"><h2 id="what-are-gans"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-are-gans"><span>#</span></a>What are GANs?</h2>
+<h3 id="slideshow"><a class="heading-link" title="Permalink" aria-hidden="true" href="#slideshow"><span>#</span></a>Slideshow</h3>
+<p>This is the slide deck teaching important concepts for this entire topic.<br>
+Check out the <i>Teacher’s Guide</i> <a href="https://docs.google.com/document/d/1Rqyuq3ku4AugOqSKzEPTMSegqkj3swt81XFi0Mjplk4/copy" target="_blank">here.</a></p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRsGBj5Dj8drsphz6sts2I9c3W8fxcVrI50wyokNJpOE9TfCxRt0D_jkXFj4v9LrQM_67rvGL_pGqjP/embed?start=false&loop=false&delayms=3000" frameborder="0" width="900" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<small style="margin-top: 10px">Get a slideshow
+  <a href="https://docs.google.com/presentation/d/1LyKZiGCokCVsJvvT3AHvBarWeIQzTG_q22XeFL8_eOY/copy" target="_blank">copy.</a></small>
+<h3 id="activities"><a class="heading-link" title="Permalink" aria-hidden="true" href="#activities"><span>#</span></a>Activities</h3>
+<p>The following activities are supplementary activities that kids should complete to reinforce these important concepts. <b>These activities are listed in the order we suggest you follow.</b></p>
+<h4 id="activity-1-color-matching-game"><a class="heading-link" title="Permalink" aria-hidden="true" href="#activity-1-color-matching-game"><span>#</span></a>Activity 1. Color Matching Game</h4>
+<ul><li><b>Links:</b> <a href="https://docs.google.com/document/d/1CY1IkE99t9fzSZ4UqpvTdf5mp9wYchvwUFM5GIF5Rrs/copy" target="_blank">Color Matching Worksheet</a></li>
+<li><b>Pre-Reqs:</b> “Classifying vs. Generating AI” Slideshow</li>
+<li><b>Suggested Length:</b> 20 min</li>
+<li><b>Tech Dependencies:</b> Google Chrome</li>
+<li><b>Key Concepts:</b> Classifier, Generator</li>
+<li><b>Group Reqs:</b> None</li>
+<li><b>Description:</b> Students will classify colors against a color wheel and color chart.</li></ul>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vRGA7zCYm7fRI1viG-Lq2M1xboyQ3ib7DgZY_KPQqGpnSwx51f11p7UvmHIWmweoYf6FKt3YDyW5Wvz/pub?embedded=true" frameborder="0" width="900" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<h4 id="activity-2-classifier-or-generator"><a class="heading-link" title="Permalink" aria-hidden="true" href="#activity-2-classifier-or-generator"><span>#</span></a>Activity 2. Classifier or Generator</h4>
+<ul><li><b>Links:</b>
+<ol><li><a href="https://docs.google.com/forms/d/1XahnTSHr2UxXP6iqp6z_pMRygwxU3NzhqI8ZXahqZt8/copy" target="_blank">Classifier or Generator Google Form</a></li>
+<li><a href="https://docs.google.com/presentation/d/1dk8GMb4OxSfidxEGe6fIa0rtHCL3IPuIKVkbaw2wGoI/copy" target="_blank">Classifier or Generator Activity Slides</a></li></ol></li>
+<li><b>Pre-Reqs:</b> “Classifying vs. Generating AI” Slideshow
+</li>
+<li><b>Suggested Length:</b> 60 min
+</li>
+<li><b>Tech Dependencies:</b> Google Chrome
+</li>
+<li><b>Key Concepts:</b> Classifier, Generator
+</li>
+<li><b>Group Reqs:</b> None
+</li>
+<li><b>Description:</b> Students review the difference between classifiers and generators by identifying whether various entities are classifiers or generators.
+</li></ul>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRB2pd3F13z2Vdf3HKUQqKlCsxr6xvxTpLVClV3G8nlFmNw3JVr2pMWQ1yEQHZ7bdRJLFCxoyzHZb4z/embed?start=false&loop=false&delayms=3000" frameborder="1" width="900" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<h2 id="generator-vs-discriminator"><a class="heading-link" title="Permalink" aria-hidden="true" href="#generator-vs-discriminator"><span>#</span></a>Generator VS. Discriminator</h2></div></article>
+		<div class="container"><section id="related-posts" class="content-section top svelte-10pllan"><div class="title-area svelte-10pllan"><div class="text svelte-10pllan"><h2>Other Lessons</h2>
+				</div></div>
+	<div class="content-area svelte-10pllan"><div class="simple-grid svelte-ypk0wh"><a class="card blog-post-card no-image svelte-1kz16cj" href="/deep-fakes" target="_self" data-sveltekit-preload-data><div class="image svelte-1kz16cj"><div class="image" slot="image"></div></div>
+	<div class="body svelte-1kz16cj"><div class="content svelte-1kz16cj"><div class="content svelte-1i7t6gt" slot="content"><p class="title svelte-1i7t6gt">Introduction to Deepfakes</p>
+		<div class="note svelte-1i7t6gt">1-2 hour lesson</div>
+		<p class="text svelte-1i7t6gt">Description</p></div></div>
+		<div class="footer"><div class="footer svelte-1i7t6gt" slot="footer"><div class="tags svelte-1i7t6gt"><div class="tag primary svelte-1xh8qlg">tag</div></div></div></div></div>
+</a><a class="card blog-post-card no-image svelte-1kz16cj" href="/genai-workshop" target="_self" data-sveltekit-preload-data><div class="image svelte-1kz16cj"><div class="image" slot="image"></div></div>
+	<div class="body svelte-1kz16cj"><div class="content svelte-1kz16cj"><div class="content svelte-1i7t6gt" slot="content"><p class="title svelte-1i7t6gt">Generative AI Workshop</p>
+		<div class="note svelte-1i7t6gt">1-2 hour lesson</div>
+		<p class="text svelte-1i7t6gt">Description</p></div></div>
+		<div class="footer"><div class="footer svelte-1i7t6gt" slot="footer"><div class="tags svelte-1i7t6gt"><div class="tag primary svelte-1xh8qlg">Adult</div></div></div></div></div>
+</a><a class="card blog-post-card no-image svelte-1kz16cj" href="/generation-vs-classification" target="_self" data-sveltekit-preload-data><div class="image svelte-1kz16cj"><div class="image" slot="image"></div></div>
+	<div class="body svelte-1kz16cj"><div class="content svelte-1kz16cj"><div class="content svelte-1i7t6gt" slot="content"><p class="title svelte-1i7t6gt">Classifying Vs. Generating AI</p>
+		<div class="note svelte-1i7t6gt">1-2 hour lesson</div>
+		<p class="text svelte-1i7t6gt">Description</p></div></div>
+		<div class="footer"><div class="footer svelte-1i7t6gt" slot="footer"><div class="tags svelte-1i7t6gt"><div class="tag primary svelte-1xh8qlg">tag</div><div class="tag primary svelte-1xh8qlg">tag2</div></div></div></div></div>
+</a></div>
+		</div>
+</section></div></main>
+	<footer class="svelte-118xtbl"><div class="wave"><svg width="100%" height="120" viewBox="0 0 1440 120" fill="none" style="transform: scale(-1,-1)" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" class="footer__wave"><path d="M0 0L48 8.875C96 17.9167 192 35.4167 288 53.3333C384 71.25 480 88.75 576 82.2083C672 75.4167 768 44.5833 864 26.6667C960 8.75 1056 4.58333 1152 11.125C1248 17.9167 1344 35.4167 1392 44.4583L1440 53.3333V120H1392C1344 120 1248 120 1152 120C1056 120 960 120 864 120C768 120 672 120 576 120C480 120 384 120 288 120C192 120 96 120 48 120H0V0Z" fill="var(--body-background-color)"></path></svg></div>
+	<div class="content svelte-118xtbl"><div class="copyright">© 2023 Copyright MIT
+		</div>
+		<div class="credits svelte-118xtbl">Powered by <a href="https://kit.svelte.dev/" target="_blank" rel="noopener noreferrer" class="svelte-118xtbl">SvelteKit</a>.
+		</div></div>
+</footer>
+</div>
+
+			
+			<script>
+				{
+					__sveltekit_1ta534p = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,{"type":"data","data":{post:{title:"GANs",slug:"GANs",readingTime:"1-2 hour lesson",excerpt:null,coverImage:null,tags:[null],html:"\u003Ch2 id=\"what-are-gans\">\u003Ca class=\"heading-link\" title=\"Permalink\" aria-hidden=\"true\" href=\"#what-are-gans\">\u003Cspan>#\u003C/span>\u003C/a>What are GANs?\u003C/h2>\n\u003Ch3 id=\"slideshow\">\u003Ca class=\"heading-link\" title=\"Permalink\" aria-hidden=\"true\" href=\"#slideshow\">\u003Cspan>#\u003C/span>\u003C/a>Slideshow\u003C/h3>\n\u003Cp>This is the slide deck teaching important concepts for this entire topic.\u003Cbr>\nCheck out the \u003Ci>Teacher’s Guide\u003C/i> \u003Ca href=\"https://docs.google.com/document/d/1Rqyuq3ku4AugOqSKzEPTMSegqkj3swt81XFi0Mjplk4/copy\" target=\"_blank\">here.\u003C/a>\u003C/p>\n\u003Ciframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vRsGBj5Dj8drsphz6sts2I9c3W8fxcVrI50wyokNJpOE9TfCxRt0D_jkXFj4v9LrQM_67rvGL_pGqjP/embed?start=false&loop=false&delayms=3000\" frameborder=\"0\" width=\"900\" height=\"500\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\">\u003C/iframe>\n\u003Csmall style=\"margin-top: 10px\">Get a slideshow\n  \u003Ca href=\"https://docs.google.com/presentation/d/1LyKZiGCokCVsJvvT3AHvBarWeIQzTG_q22XeFL8_eOY/copy\" target=\"_blank\">copy.\u003C/a>\u003C/small>\n\u003Ch3 id=\"activities\">\u003Ca class=\"heading-link\" title=\"Permalink\" aria-hidden=\"true\" href=\"#activities\">\u003Cspan>#\u003C/span>\u003C/a>Activities\u003C/h3>\n\u003Cp>The following activities are supplementary activities that kids should complete to reinforce these important concepts. \u003Cb>These activities are listed in the order we suggest you follow.\u003C/b>\u003C/p>\n\u003Ch4 id=\"activity-1-color-matching-game\">\u003Ca class=\"heading-link\" title=\"Permalink\" aria-hidden=\"true\" href=\"#activity-1-color-matching-game\">\u003Cspan>#\u003C/span>\u003C/a>Activity 1. Color Matching Game\u003C/h4>\n\u003Cul>\u003Cli>\u003Cb>Links:\u003C/b> \u003Ca href=\"https://docs.google.com/document/d/1CY1IkE99t9fzSZ4UqpvTdf5mp9wYchvwUFM5GIF5Rrs/copy\" target=\"_blank\">Color Matching Worksheet\u003C/a>\u003C/li>\n\u003Cli>\u003Cb>Pre-Reqs:\u003C/b> “Classifying vs. Generating AI” Slideshow\u003C/li>\n\u003Cli>\u003Cb>Suggested Length:\u003C/b> 20 min\u003C/li>\n\u003Cli>\u003Cb>Tech Dependencies:\u003C/b> Google Chrome\u003C/li>\n\u003Cli>\u003Cb>Key Concepts:\u003C/b> Classifier, Generator\u003C/li>\n\u003Cli>\u003Cb>Group Reqs:\u003C/b> None\u003C/li>\n\u003Cli>\u003Cb>Description:\u003C/b> Students will classify colors against a color wheel and color chart.\u003C/li>\u003C/ul>\n\u003Ciframe src=\"https://docs.google.com/document/d/e/2PACX-1vRGA7zCYm7fRI1viG-Lq2M1xboyQ3ib7DgZY_KPQqGpnSwx51f11p7UvmHIWmweoYf6FKt3YDyW5Wvz/pub?embedded=true\" frameborder=\"0\" width=\"900\" height=\"500\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\">\u003C/iframe>\n\u003Ch4 id=\"activity-2-classifier-or-generator\">\u003Ca class=\"heading-link\" title=\"Permalink\" aria-hidden=\"true\" href=\"#activity-2-classifier-or-generator\">\u003Cspan>#\u003C/span>\u003C/a>Activity 2. Classifier or Generator\u003C/h4>\n\u003Cul>\u003Cli>\u003Cb>Links:\u003C/b>\n\u003Col>\u003Cli>\u003Ca href=\"https://docs.google.com/forms/d/1XahnTSHr2UxXP6iqp6z_pMRygwxU3NzhqI8ZXahqZt8/copy\" target=\"_blank\">Classifier or Generator Google Form\u003C/a>\u003C/li>\n\u003Cli>\u003Ca href=\"https://docs.google.com/presentation/d/1dk8GMb4OxSfidxEGe6fIa0rtHCL3IPuIKVkbaw2wGoI/copy\" target=\"_blank\">Classifier or Generator Activity Slides\u003C/a>\u003C/li>\u003C/ol>\u003C/li>\n\u003Cli>\u003Cb>Pre-Reqs:\u003C/b> “Classifying vs. Generating AI” Slideshow\n\u003C/li>\n\u003Cli>\u003Cb>Suggested Length:\u003C/b> 60 min\n\u003C/li>\n\u003Cli>\u003Cb>Tech Dependencies:\u003C/b> Google Chrome\n\u003C/li>\n\u003Cli>\u003Cb>Key Concepts:\u003C/b> Classifier, Generator\n\u003C/li>\n\u003Cli>\u003Cb>Group Reqs:\u003C/b> None\n\u003C/li>\n\u003Cli>\u003Cb>Description:\u003C/b> Students review the difference between classifiers and generators by identifying whether various entities are classifiers or generators.\n\u003C/li>\u003C/ul>\n\u003Ciframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vRB2pd3F13z2Vdf3HKUQqKlCsxr6xvxTpLVClV3G8nlFmNw3JVr2pMWQ1yEQHZ7bdRJLFCxoyzHZb4z/embed?start=false&loop=false&delayms=3000\" frameborder=\"1\" width=\"900\" height=\"500\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\">\u003C/iframe>\n\u003Ch2 id=\"generator-vs-discriminator\">\u003Ca class=\"heading-link\" title=\"Permalink\" aria-hidden=\"true\" href=\"#generator-vs-discriminator\">\u003Cspan>#\u003C/span>\u003C/a>Generator VS. Discriminator\u003C/h2>",relatedPosts:[{title:"Introduction to Deepfakes",slug:"deep-fakes",readingTime:"1-2 hour lesson",coverImage:null,excerpt:"Description",tags:["tag"],html:""},{title:"Generative AI Workshop",slug:"genai-workshop",readingTime:"1-2 hour lesson",excerpt:"Description",coverImage:"/images/posts/project-structure.jpg",tags:["Adult"],html:""},{title:"Classifying Vs. Generating AI",slug:"generation-vs-classification",readingTime:"1-2 hour lesson",coverImage:"/images/posts/Classifying AI vs. Generating AI Slides.png",excerpt:"Description",tags:["tag","tag2"],html:"\u003Ch2 id=\"slideshow\">\u003Ca class=\"heading-link\" title=\"Permalink\" aria-hidden=\"true\" href=\"#slideshow\">\u003Cspan>#\u003C/span>\u003C/a>Slideshow\u003C/h2>\n\u003Cp>This is the slide deck teaching important concepts for this entire topic.\u003Cbr>\nCheck out the \u003Ci>Teacher’s Guide\u003C/i> \u003Ca href=\"https://docs.google.com/document/d/1Rqyuq3ku4AugOqSKzEPTMSegqkj3swt81XFi0Mjplk4/copy\" target=\"_blank\">here.\u003C/a>\u003C/p>\n\u003Ciframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vRsGBj5Dj8drsphz6sts2I9c3W8fxcVrI50wyokNJpOE9TfCxRt0D_jkXFj4v9LrQM_67rvGL_pGqjP/embed?start=false&loop=false&delayms=3000\" frameborder=\"0\" width=\"900\" height=\"500\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\">\u003C/iframe>\n\u003Csmall style=\"margin-top: 10px\">Get a slideshow\n  \u003Ca href=\"https://docs.google.com/presentation/d/1LyKZiGCokCVsJvvT3AHvBarWeIQzTG_q22XeFL8_eOY/copy\" target=\"_blank\">copy.\u003C/a>\u003C/small>\n\u003Ch2 id=\"activities\">\u003Ca class=\"heading-link\" title=\"Permalink\" aria-hidden=\"true\" href=\"#activities\">\u003Cspan>#\u003C/span>\u003C/a>Activities\u003C/h2>\n\u003Cp>The following activities are supplementary activities that kids should complete to reinforce these important concepts. \u003Cb>These activities are listed in the order we suggest you follow.\u003C/b>\u003C/p>\n\u003Ch3 id=\"activity-1-color-matching-game\">\u003Ca class=\"heading-link\" title=\"Permalink\" aria-hidden=\"true\" href=\"#activity-1-color-matching-game\">\u003Cspan>#\u003C/span>\u003C/a>Activity 1. Color Matching Game\u003C/h3>\n\u003Cul>\u003Cli>\u003Cb>Links:\u003C/b> \u003Ca href=\"https://docs.google.com/document/d/1CY1IkE99t9fzSZ4UqpvTdf5mp9wYchvwUFM5GIF5Rrs/copy\" target=\"_blank\">Color Matching Worksheet\u003C/a>\u003C/li>\n\u003Cli>\u003Cb>Pre-Reqs:\u003C/b> “Classifying vs. Generating AI” Slideshow\u003C/li>\n\u003Cli>\u003Cb>Suggested Length:\u003C/b> 20 min\u003C/li>\n\u003Cli>\u003Cb>Tech Dependencies:\u003C/b> Google Chrome\u003C/li>\n\u003Cli>\u003Cb>Key Concepts:\u003C/b> Classifier, Generator\u003C/li>\n\u003Cli>\u003Cb>Group Reqs:\u003C/b> None\u003C/li>\n\u003Cli>\u003Cb>Description:\u003C/b> Students will classify colors against a color wheel and color chart.\u003C/li>\u003C/ul>\n\u003Ciframe src=\"https://docs.google.com/document/d/e/2PACX-1vRGA7zCYm7fRI1viG-Lq2M1xboyQ3ib7DgZY_KPQqGpnSwx51f11p7UvmHIWmweoYf6FKt3YDyW5Wvz/pub?embedded=true\" frameborder=\"0\" width=\"900\" height=\"500\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\">\u003C/iframe>\n\u003Ch3 id=\"activity-2-classifier-or-generator\">\u003Ca class=\"heading-link\" title=\"Permalink\" aria-hidden=\"true\" href=\"#activity-2-classifier-or-generator\">\u003Cspan>#\u003C/span>\u003C/a>Activity 2. Classifier or Generator\u003C/h3>\n\u003Cul>\u003Cli>\u003Cb>Links:\u003C/b>\n\u003Col>\u003Cli>\u003Ca href=\"https://docs.google.com/forms/d/1XahnTSHr2UxXP6iqp6z_pMRygwxU3NzhqI8ZXahqZt8/copy\" target=\"_blank\">Classifier or Generator Google Form\u003C/a>\u003C/li>\n\u003Cli>\u003Ca href=\"https://docs.google.com/presentation/d/1dk8GMb4OxSfidxEGe6fIa0rtHCL3IPuIKVkbaw2wGoI/copy\" target=\"_blank\">Classifier or Generator Activity Slides\u003C/a>\u003C/li>\u003C/ol>\u003C/li>\n\u003Cli>\u003Cb>Pre-Reqs:\u003C/b> “Classifying vs. Generating AI” Slideshow\n\u003C/li>\n\u003Cli>\u003Cb>Suggested Length:\u003C/b> 60 min\n\u003C/li>\n\u003Cli>\u003Cb>Tech Dependencies:\u003C/b> Google Chrome\n\u003C/li>\n\u003Cli>\u003Cb>Key Concepts:\u003C/b> Classifier, Generator\n\u003C/li>\n\u003Cli>\u003Cb>Group Reqs:\u003C/b> None\n\u003C/li>\n\u003Cli>\u003Cb>Description:\u003C/b> Students review the difference between classifiers and generators by identifying whether various entities are classifiers or generators.\n\u003C/li>\u003C/ul>\n\u003Ciframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vRB2pd3F13z2Vdf3HKUQqKlCsxr6xvxTpLVClV3G8nlFmNw3JVr2pMWQ1yEQHZ7bdRJLFCxoyzHZb4z/embed?start=false&loop=false&delayms=3000\" frameborder=\"1\" width=\"900\" height=\"500\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\">\u003C/iframe>"}]}},"uses":{"url":1}},null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.5eee4d95.js"),
+						import("./_app/immutable/entry/app.d326a4d5.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2, 4],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

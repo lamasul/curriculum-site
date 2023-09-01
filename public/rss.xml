@@ -1,0 +1,235 @@
+
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+  <channel>
+    <atom:link href="https://genai-lab-6e1e6.web.app/rss.xml" rel="self" type="application/rss+xml" />
+    <title>GenAI Lab</title>
+    <link>https://genai-lab-6e1e6.web.app</link>
+    <description>A generative AI literacy website.</description>
+    <image>
+      <url>https://genai-lab-6e1e6.web.app/favicons/favicon-32x32.png</url>
+      <title>GenAI Lab</title>
+      <link>https://genai-lab-6e1e6.web.app</link>
+      <width>32</width>
+      <height>32</height>
+    </image>
+    
+        <item>
+          <guid>https://genai-lab-6e1e6.web.app/GANs</guid>
+          <title>GANs</title>
+          <description>null</description>
+          <link>https://genai-lab-6e1e6.web.app/GANs</link>
+          <pubDate>Sun, 27 Aug 2023 15:03:58 -0400</pubDate>
+          <category>null</category>
+          <content:encoded><![CDATA[
+            <div style="margin: 50px 0; font-style: italic;">
+              If anything looks wrong, 
+              <strong>
+                <a href="https://genai-lab-6e1e6.web.app/GANs">
+                  read on the site!
+                </a>
+              </strong>
+            </div>
+
+            <h2 id="what-are-gans"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-are-gans"><span>#</span></a>What are GANs?</h2>
+<h3 id="slideshow"><a class="heading-link" title="Permalink" aria-hidden="true" href="#slideshow"><span>#</span></a>Slideshow</h3>
+<p>This is the slide deck teaching important concepts for this entire topic.<br>
+Check out the <i>Teacher’s Guide</i> <a href="https://docs.google.com/document/d/1Rqyuq3ku4AugOqSKzEPTMSegqkj3swt81XFi0Mjplk4/copy" target="_blank">here.</a></p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRsGBj5Dj8drsphz6sts2I9c3W8fxcVrI50wyokNJpOE9TfCxRt0D_jkXFj4v9LrQM_67rvGL_pGqjP/embed?start=false&loop=false&delayms=3000" frameborder="0" width="900" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<small style="margin-top: 10px">Get a slideshow
+  <a href="https://docs.google.com/presentation/d/1LyKZiGCokCVsJvvT3AHvBarWeIQzTG_q22XeFL8_eOY/copy" target="_blank">copy.</a></small>
+<h3 id="activities"><a class="heading-link" title="Permalink" aria-hidden="true" href="#activities"><span>#</span></a>Activities</h3>
+<p>The following activities are supplementary activities that kids should complete to reinforce these important concepts. <b>These activities are listed in the order we suggest you follow.</b></p>
+<h4 id="activity-1-color-matching-game"><a class="heading-link" title="Permalink" aria-hidden="true" href="#activity-1-color-matching-game"><span>#</span></a>Activity 1. Color Matching Game</h4>
+<ul><li><b>Links:</b> <a href="https://docs.google.com/document/d/1CY1IkE99t9fzSZ4UqpvTdf5mp9wYchvwUFM5GIF5Rrs/copy" target="_blank">Color Matching Worksheet</a></li>
+<li><b>Pre-Reqs:</b> “Classifying vs. Generating AI” Slideshow</li>
+<li><b>Suggested Length:</b> 20 min</li>
+<li><b>Tech Dependencies:</b> Google Chrome</li>
+<li><b>Key Concepts:</b> Classifier, Generator</li>
+<li><b>Group Reqs:</b> None</li>
+<li><b>Description:</b> Students will classify colors against a color wheel and color chart.</li></ul>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vRGA7zCYm7fRI1viG-Lq2M1xboyQ3ib7DgZY_KPQqGpnSwx51f11p7UvmHIWmweoYf6FKt3YDyW5Wvz/pub?embedded=true" frameborder="0" width="900" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<h4 id="activity-2-classifier-or-generator"><a class="heading-link" title="Permalink" aria-hidden="true" href="#activity-2-classifier-or-generator"><span>#</span></a>Activity 2. Classifier or Generator</h4>
+<ul><li><b>Links:</b>
+<ol><li><a href="https://docs.google.com/forms/d/1XahnTSHr2UxXP6iqp6z_pMRygwxU3NzhqI8ZXahqZt8/copy" target="_blank">Classifier or Generator Google Form</a></li>
+<li><a href="https://docs.google.com/presentation/d/1dk8GMb4OxSfidxEGe6fIa0rtHCL3IPuIKVkbaw2wGoI/copy" target="_blank">Classifier or Generator Activity Slides</a></li></ol></li>
+<li><b>Pre-Reqs:</b> “Classifying vs. Generating AI” Slideshow
+</li>
+<li><b>Suggested Length:</b> 60 min
+</li>
+<li><b>Tech Dependencies:</b> Google Chrome
+</li>
+<li><b>Key Concepts:</b> Classifier, Generator
+</li>
+<li><b>Group Reqs:</b> None
+</li>
+<li><b>Description:</b> Students review the difference between classifiers and generators by identifying whether various entities are classifiers or generators.
+</li></ul>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRB2pd3F13z2Vdf3HKUQqKlCsxr6xvxTpLVClV3G8nlFmNw3JVr2pMWQ1yEQHZ7bdRJLFCxoyzHZb4z/embed?start=false&loop=false&delayms=3000" frameborder="1" width="900" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<h2 id="generator-vs-discriminator"><a class="heading-link" title="Permalink" aria-hidden="true" href="#generator-vs-discriminator"><span>#</span></a>Generator VS. Discriminator</h2>
+          ]]></content:encoded>
+          
+                    
+        </item>
+      
+        <item>
+          <guid>https://genai-lab-6e1e6.web.app/deep-fakes</guid>
+          <title>Introduction to Deepfakes</title>
+          <description>Description</description>
+          <link>https://genai-lab-6e1e6.web.app/deep-fakes</link>
+          <pubDate>Sun, 27 Aug 2023 15:03:58 -0400</pubDate>
+          <category>tag</category>
+          <content:encoded><![CDATA[
+            <div style="margin: 50px 0; font-style: italic;">
+              If anything looks wrong, 
+              <strong>
+                <a href="https://genai-lab-6e1e6.web.app/deep-fakes">
+                  read on the site!
+                </a>
+              </strong>
+            </div>
+
+            
+          ]]></content:encoded>
+          
+                    
+        </item>
+      
+        <item>
+          <guid>https://genai-lab-6e1e6.web.app/genai-workshop</guid>
+          <title>Generative AI Workshop</title>
+          <description>Description</description>
+          <link>https://genai-lab-6e1e6.web.app/genai-workshop</link>
+          <pubDate>Sun, 27 Aug 2023 15:03:58 -0400</pubDate>
+          <category>Adult</category>
+          <content:encoded><![CDATA[
+            <div style="margin: 50px 0; font-style: italic;">
+              If anything looks wrong, 
+              <strong>
+                <a href="https://genai-lab-6e1e6.web.app/genai-workshop">
+                  read on the site!
+                </a>
+              </strong>
+            </div>
+
+            
+          ]]></content:encoded>
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://genai-lab-6e1e6.web.app//images/posts/project-structure.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://genai-lab-6e1e6.web.app//images/posts/project-structure.jpg"/>          
+        </item>
+      
+        <item>
+          <guid>https://genai-lab-6e1e6.web.app/generation-vs-classification</guid>
+          <title>Classifying Vs. Generating AI</title>
+          <description>Description</description>
+          <link>https://genai-lab-6e1e6.web.app/generation-vs-classification</link>
+          <pubDate>Sun, 27 Aug 2023 15:03:58 -0400</pubDate>
+          <category>tag</category><category>tag2</category>
+          <content:encoded><![CDATA[
+            <div style="margin: 50px 0; font-style: italic;">
+              If anything looks wrong, 
+              <strong>
+                <a href="https://genai-lab-6e1e6.web.app/generation-vs-classification">
+                  read on the site!
+                </a>
+              </strong>
+            </div>
+
+            <h2 id="slideshow"><a class="heading-link" title="Permalink" aria-hidden="true" href="#slideshow"><span>#</span></a>Slideshow</h2>
+<p>This is the slide deck teaching important concepts for this entire topic.<br>
+Check out the <i>Teacher’s Guide</i> <a href="https://docs.google.com/document/d/1Rqyuq3ku4AugOqSKzEPTMSegqkj3swt81XFi0Mjplk4/copy" target="_blank">here.</a></p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRsGBj5Dj8drsphz6sts2I9c3W8fxcVrI50wyokNJpOE9TfCxRt0D_jkXFj4v9LrQM_67rvGL_pGqjP/embed?start=false&loop=false&delayms=3000" frameborder="0" width="900" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<small style="margin-top: 10px">Get a slideshow
+  <a href="https://docs.google.com/presentation/d/1LyKZiGCokCVsJvvT3AHvBarWeIQzTG_q22XeFL8_eOY/copy" target="_blank">copy.</a></small>
+<h2 id="activities"><a class="heading-link" title="Permalink" aria-hidden="true" href="#activities"><span>#</span></a>Activities</h2>
+<p>The following activities are supplementary activities that kids should complete to reinforce these important concepts. <b>These activities are listed in the order we suggest you follow.</b></p>
+<h3 id="activity-1-color-matching-game"><a class="heading-link" title="Permalink" aria-hidden="true" href="#activity-1-color-matching-game"><span>#</span></a>Activity 1. Color Matching Game</h3>
+<ul><li><b>Links:</b> <a href="https://docs.google.com/document/d/1CY1IkE99t9fzSZ4UqpvTdf5mp9wYchvwUFM5GIF5Rrs/copy" target="_blank">Color Matching Worksheet</a></li>
+<li><b>Pre-Reqs:</b> “Classifying vs. Generating AI” Slideshow</li>
+<li><b>Suggested Length:</b> 20 min</li>
+<li><b>Tech Dependencies:</b> Google Chrome</li>
+<li><b>Key Concepts:</b> Classifier, Generator</li>
+<li><b>Group Reqs:</b> None</li>
+<li><b>Description:</b> Students will classify colors against a color wheel and color chart.</li></ul>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vRGA7zCYm7fRI1viG-Lq2M1xboyQ3ib7DgZY_KPQqGpnSwx51f11p7UvmHIWmweoYf6FKt3YDyW5Wvz/pub?embedded=true" frameborder="0" width="900" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<h3 id="activity-2-classifier-or-generator"><a class="heading-link" title="Permalink" aria-hidden="true" href="#activity-2-classifier-or-generator"><span>#</span></a>Activity 2. Classifier or Generator</h3>
+<ul><li><b>Links:</b>
+<ol><li><a href="https://docs.google.com/forms/d/1XahnTSHr2UxXP6iqp6z_pMRygwxU3NzhqI8ZXahqZt8/copy" target="_blank">Classifier or Generator Google Form</a></li>
+<li><a href="https://docs.google.com/presentation/d/1dk8GMb4OxSfidxEGe6fIa0rtHCL3IPuIKVkbaw2wGoI/copy" target="_blank">Classifier or Generator Activity Slides</a></li></ol></li>
+<li><b>Pre-Reqs:</b> “Classifying vs. Generating AI” Slideshow
+</li>
+<li><b>Suggested Length:</b> 60 min
+</li>
+<li><b>Tech Dependencies:</b> Google Chrome
+</li>
+<li><b>Key Concepts:</b> Classifier, Generator
+</li>
+<li><b>Group Reqs:</b> None
+</li>
+<li><b>Description:</b> Students review the difference between classifiers and generators by identifying whether various entities are classifiers or generators.
+</li></ul>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRB2pd3F13z2Vdf3HKUQqKlCsxr6xvxTpLVClV3G8nlFmNw3JVr2pMWQ1yEQHZ7bdRJLFCxoyzHZb4z/embed?start=false&loop=false&delayms=3000" frameborder="1" width="900" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+          ]]></content:encoded>
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://genai-lab-6e1e6.web.app//images/posts/Classifying AI vs. Generating AI Slides.png"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://genai-lab-6e1e6.web.app//images/posts/Classifying AI vs. Generating AI Slides.png"/>          
+        </item>
+      
+        <item>
+          <guid>https://genai-lab-6e1e6.web.app/intro-to-genai-for-k12</guid>
+          <title>Introduction to Generative AI for k12</title>
+          <description>Description</description>
+          <link>https://genai-lab-6e1e6.web.app/intro-to-genai-for-k12</link>
+          <pubDate>Sun, 27 Aug 2023 15:03:58 -0400</pubDate>
+          <category>Tag</category>
+          <content:encoded><![CDATA[
+            <div style="margin: 50px 0; font-style: italic;">
+              If anything looks wrong, 
+              <strong>
+                <a href="https://genai-lab-6e1e6.web.app/intro-to-genai-for-k12">
+                  read on the site!
+                </a>
+              </strong>
+            </div>
+
+            <h2 id="slides-to-lesson"><a class="heading-link" title="Permalink" aria-hidden="true" href="#slides-to-lesson"><span>#</span></a>Slides to lesson</h2>
+<p>Embed slides here</p>
+<h2 id="time-test"><a class="heading-link" title="Permalink" aria-hidden="true" href="#time-test"><span>#</span></a>time test</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed euismod nisi porta lorem mollis aliquam ut porttitor. Netus et malesuada fames ac turpis. Lacus vestibulum sed arcu non odio euismod lacinia at. Augue ut lectus arcu bibendum at varius vel pharetra. Tortor consequat id porta nibh venenatis cras sed. Id neque aliquam vestibulum morbi blandit cursus. Libero nunc consequat interdum varius sit amet mattis. Vitae ultricies leo integer malesuada nunc. Enim nec dui nunc mattis. Semper quis lectus nulla at volutpat diam ut venenatis tellus. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci. Massa massa ultricies mi quis. Pellentesque habitant morbi tristique senectus et netus et.</p>
+          ]]></content:encoded>
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://genai-lab-6e1e6.web.app//images/posts/customization.jpg"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://genai-lab-6e1e6.web.app//images/posts/customization.jpg"/>          
+        </item>
+      
+        <item>
+          <guid>https://genai-lab-6e1e6.web.app/new-lesson</guid>
+          <title>new lesson</title>
+          <description>null</description>
+          <link>https://genai-lab-6e1e6.web.app/new-lesson</link>
+          <pubDate>Sun, 27 Aug 2023 15:03:58 -0400</pubDate>
+          <category>Introduction</category>
+          <content:encoded><![CDATA[
+            <div style="margin: 50px 0; font-style: italic;">
+              If anything looks wrong, 
+              <strong>
+                <a href="https://genai-lab-6e1e6.web.app/new-lesson">
+                  read on the site!
+                </a>
+              </strong>
+            </div>
+
+            
+          ]]></content:encoded>
+          
+                    
+        </item>
+      
+  </channel>
+</rss>

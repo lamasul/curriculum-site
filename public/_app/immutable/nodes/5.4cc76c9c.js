@@ -1,0 +1,1 @@
+import{S as o,i as s,s as e}from"../chunks/index.9dc8c717.js";/* empty css                                                      *//* empty css                                                        *//* empty css                                                    */class l extends o{constructor(t){super(),s(this,t,null,null,e,{})}}export{l as component};
