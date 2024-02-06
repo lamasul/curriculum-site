@@ -3,7 +3,7 @@
 </script>
 
 <section id="hero">
-	<h1 class="hello">Generative AI Lab</h1>
+	<h1 class="hello">Placeholder</h1>
 	<div class="ctas">
 		<Button href="/curriculum">
 			Get Started!

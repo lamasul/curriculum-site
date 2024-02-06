@@ -5,10 +5,10 @@
 <section id="about">
 	<div class="info">
 		<h3>
-			Welcome to your mini learning hub for Generative AI!
+			header, what does daniella want this to say?
 		</h3>
 		<p>
-			Explore the future of innovation through bite-sized lessons, demystifying complex concepts. Ignite your understanding and harness the power of AI-driven creativity!
+			what does daniella want this to say?
 		</p>
 	</div>
 	<div class="image">

@@ -8,9 +8,9 @@
 </script>
 
 <ContentSection
-	id="lessons"
-	title="Eye-catching Lessons"
-	description="Check out our best lessons!"
+	id="workshops"
+	title="Fun, interactive, workshops"
+	description="Check out our workshops!"
 	align="top"
 >
 	<div slot="button">

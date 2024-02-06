@@ -5,11 +5,10 @@
 <section id="section">
 	<div class="info">
 		<h2 id="h2">
-			What is GenAI Lab?
+			what does daniella want this to say
 		</h2>
 		<p>
-			Everyone is impacted by AI in their daily lives and in their workplaces. It is critical for everyone to have a fundamental knowledge of AI and to understand AI&#39;s potential for good and harm. The GenAI Lab will jumpstart your readiness for AI and give you the tools you need to prepare for the AI-enabled world. <br><br>
-			The GenAI Lab, designed by MIT educators and experienced facilitators, features hands-on and computer-based activities on AI concepts, ethical issues in AI, creative expression using AI, and how AI relates to your future. You will experience training and using machine learning to make predictions, investigate bias in machine learning applications, use generative adversarial networks to create novel works of art, and learn to recognize the AI you interact with daily and in the world around you.
+			description of workshops?
 		</p>
 	</div>
 	
@@ -21,7 +20,7 @@
 			Project and the Team
 		</h2>
 		<p>
-			This curriculum is currently being piloted through NSF EAGER Grant 2022502. This is a joint venture between the <b>Personal Robots Group</b> at the MIT Media Lab, <b>MIT STEP Lab</b>, and <b>Boston College</b>. <br>
+			This curriculum is currently being piloted through blank. This is a joint venture between the <b>Personal Robots Group</b> at the MIT Media Lab, <b>MIT STEP Lab</b>, and <b>Boston College</b>. <br>
 		</p>
 	</div>
 	

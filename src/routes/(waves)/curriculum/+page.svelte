@@ -15,7 +15,7 @@
 </svelte:head>
 
 <div class="container">
-	<ContentSection title="Curriculum" description="The following lessons are the compilation of all the materials needed to complete the GenAI Lab curriculum.">
+	<ContentSection title="Curriculum" description="The following workshops are the compilation of .">
 		<div class="grid">
 			{#each posts as post}
 				<BlogPostCard
